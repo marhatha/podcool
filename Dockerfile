@@ -3,7 +3,7 @@ FROM python:3-alpine
 LABEL AUTHOR="William Caban"
 LABEL APP="podcool"
 
-ENV APP_VERSION v1-dockerfile
+ENV APP_VERSION v2-dockerfile
 ENV APP_MESSAGE "Docker build default message"
 
 WORKDIR /usr/src/app
